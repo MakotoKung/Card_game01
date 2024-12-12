@@ -26,7 +26,7 @@ int main()
         shape.setFillColor(sf::Color(100, 250, 50));
         // window.draw(...);
         window.draw(shape);
-        window.
+        
 
         // end the current frame
         window.display();
