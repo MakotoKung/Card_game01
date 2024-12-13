@@ -1,4 +1,6 @@
 #include <SFML/Graphics.hpp>
+#include <iostream>
+
 
 int main()
 {
@@ -26,6 +28,10 @@ int main()
         shape.setFillColor(sf::Color(100, 250, 50));
         // window.draw(...);
         window.draw(shape);
+        
+   
+        
+        
         
 
         // end the current frame

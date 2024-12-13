@@ -71,6 +71,22 @@
           "ignoreFailures": true
         }
       ]
+    },
+    {
+      "name": "Run SFML Program",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "C:\\Users\\Makoto\\Documents\\SFML_C++\\SFML-2.6.2\bin;${env:PATH}"
+                }
+            ],
+            "externalConsole": true
     }
   ]
 }
