@@ -6,6 +6,7 @@ int main()
 {
     // create the window
     sf::RenderWindow window(sf::VideoMode(1000, 800), "Card_game-01");
+    
 
     // run the program as long as the window is open
     while (window.isOpen())
@@ -29,11 +30,6 @@ int main()
         // window.draw(...);
         window.draw(shape);
         
-   
-        
-        
-        
-
         // end the current frame
         window.display();
     }
